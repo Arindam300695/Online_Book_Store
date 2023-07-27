@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import Navbar from "../components/Navbar";
 
-const baseUrl = "http://localhost:8080";
+const baseUrl = "https://online-book-store-wka2.onrender.com";
 
 const EachBook = () => {
     const navigate = useNavigate();

@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import loader from "../assets/loader.gif";
 import Navbar from "../components/Navbar";
 import { addToCart } from "../store/cartSlice";
-const baseUrl = "http://localhost:8080";
+const baseUrl = "https://online-book-store-wka2.onrender.com";
 
 const Home = () => {
     const dispatch = useDispatch();
